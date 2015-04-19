@@ -31,7 +31,7 @@ First create the DB and user, and grant the rights.
 
 Now you must modify the `pg_hba.conf` file (whose location vary, hence the query) to allow a md5 authentication.
 
-Add the following :
+Add the following under the block that reads Put your actual configuration here:
 
 	local   all             miaou                                   md5
 
